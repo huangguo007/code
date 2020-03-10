@@ -1,0 +1,136 @@
+[2017/12/21 15:35:53][CCDtestApp::InitInstance(70)] (S)
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(132)] (S)
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(147)] GetModuleFileName() successed.
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(148)] szModuleFileName = c:\Users\hh\Desktop\Storage Device\Storage Device\CDDVDTest_v3121_src\Source\CDDVDtest\Debug(DVDtest)\DVDtest.exe
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(153)] m_szModuleFileName_Drive    = c:
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(154)] m_szModuleFileName_Dir      = \Users\hh\Desktop\Storage Device\Storage Device\CDDVDTest_v3121_src\Source\CDDVDtest\Debug(DVDtest)\
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(155)] m_szModuleFileName_FileName = DVDtest
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(156)] m_szModuleFileName_EXt      = .exe
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(160)] m_strIniFilePath            = .\DVDtest.ini
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(164)] m_strLogFilePath            = C:\Logs\
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(175)] m_strLogFileName            = DVDtest
+[2017/12/21 15:35:53][CCDtestApp::GetFileVersion(196)] (S)
+[2017/12/21 15:35:53][CCDtestApp::GetFileVersion(258)] m_strFileVersion = 3, 1, 2, 1
+[2017/12/21 15:35:53][CCDtestApp::GetFileVersion(271)] (E)(TRUE)
+[2017/12/21 15:35:53][CCDtestApp::GetAppInfo(189)] (E)(TRUE)
+[2017/12/21 15:35:53][CCDtestDlg::OnInitDialog(325)] (S)
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2581)] (S)
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2585)] Param0 : c:\Users\hh\Desktop\Storage Device\Storage Device\CDDVDTest_v3121_src\Source\CDDVDtest\Debug(DVDtest)\DVDtest.exe
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2638)] m_bRetryFlag                              = FALSE
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2639)] m_iReadDataCompare_WaitTime               = 5000
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2640)] m_iReadDataCompare_MaxRetryCount          = 5
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2641)] m_uDebugOption                            = 0
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2642)] m_bTrayOpenFlag_TestEnd                   = TRUE
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2643)] theApp.m_strIniFilePath                   = .\DVDtest.ini
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2644)] m_bTestDataSaveFlag                       = FALSE
+[2017/12/21 15:35:54][CCDtestDlg::AnalizeAppParam(2646)] (E)
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2726)] (S)
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2753)] m_bIniFileExist = TRUE
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2755)] IniFile( .\DVDtest.ini ) exists.
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2774)] m_strCompareTargetFile = DvdTestMedia.dat
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2780)] m_ulSectorOffset = 16
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2786)] m_ulSectorNum = 5
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2792)] m_uDebugOption = 0
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2810)] m_iDeviceOpen_MaxRetryCount = 5
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2828)] m_iDeviceOpen_WaitTime = 3000
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2846)] m_iVolumeLock_MaxRetryCount = 5
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2864)] m_iVolumeLock_WaitTime = 1000
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2879)] theApp.m_strLogFilePath = c:\Logs\
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2889)] theApp.m_strLogFileName = DVDtest
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2896)] m_uProfileCheckOption = 2
+[2017/12/21 15:35:54][CCDtestDlg::GetIniFileInfo(2903)] (E)
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3305)] (S)
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3340)] strParam_LogOpen = c:\Logs\DVDtest.log*c:\Logs\DVDtest.xml
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3349)] CLog.LogOpen() Success.
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3350)] Txt Log File = DVDtest.txt
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3351)] Xml Log File = DVDtest.xml
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3354)] m_bMainLogOpenFlag = TRUE
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3377)] PVer.name = DVD Test Utility
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3383)] PVer.version = 3, 1, 2, 1
+[2017/12/21 15:35:54][CCDtestDlg::InitMainLog(3396)] (E)(TRUE)
+[2017/12/21 15:35:54][CCDtestDlg::OnInitDialog(379)] [Initialization of application]
+[2017/12/21 15:35:54][CCDtestDlg::GetTestType(2913)] (S)
+[2017/12/21 15:35:54][CCDtestDlg::GetTestType(2947)] m_TestType = TEST_DVD
+[2017/12/21 15:35:54][CCDtestDlg::GetTestType(2948)] m_strCompareTargetFile = DvdTestMedia.dat
+[2017/12/21 15:35:54][CCDtestDlg::GetTestType(2950)] (E)(TRUE)
+[2017/12/21 15:35:54][LoadTDODDLib(3086)] (S)
+[2017/12/21 15:35:54][GetWorkDir(3201)] (S)
+[2017/12/21 15:35:54][GetWorkDir(3224)] buf = c:\Users\hh\Desktop\Storage Device\Storage Device\CDDVDTest_v3121_src\Source\CDDVDtest\Debug(DVDtest)\TDODDLib.dll
+[2017/12/21 15:35:54][GetWorkDir(3225)] (E)(true)
+[2017/12/21 15:35:54][LoadTDODDLib(3173)] (E)(TRUE)
+[2017/12/21 15:35:54][CCDtestDlg::OnInitDialog(438)] Success, Initialization of application.
+[2017/12/21 15:35:54][CCDtestDlg::Display_Setting(3847)] (S)
+[2017/12/21 15:35:54][CCDtestDlg::Display_Setting(3854)] m_MonitorMax = 1
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3865)] (S)
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3872)] [Display Detection]
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3878)] DisplayEnumProc No(1). = \\.\DISPLAY1
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3879)] Left = 0, 
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3880)] Top = 0, 
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3881)] Right = 1536, 
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3882)] Bottom = 864
+[2017/12/21 15:35:54][CCDtestDlg::DisplayEnumProc(3905)] (E)(TRUE)
+[2017/12/21 15:35:54][CCDtestDlg::Display_Setting(3859)] (E)
+[2017/12/21 15:35:54][CCDtestDlg::OnInitDialog(446)] (E)(TRUE)
+[2017/12/21 15:36:01][CCDtestDlg::OnTimer(527)] ***** << m_CurrentStep == Step_Drive_Detect >> *********************************************************************
+[2017/12/21 15:36:01][CCDtestDlg::OnTimer(533)] m_iDeviceOpen_CurrentRetryCount = 0
+[2017/12/21 15:36:01][CCDtestDlg::OnTimer(544)] [Drive and Media Detect]
+[2017/12/21 15:36:01][CCDtestDlg::DriveDetect(2057)] (S)
+[2017/12/21 15:36:01][CCDtestDlg::DriveDetect(2076)] m_TDODDHandle = 0x009ec9b8
+[2017/12/21 15:36:01][CCDtestDlg::DriveDetect(2091)] Success, ODD device detection(E:\).
+[2017/12/21 15:36:01][CCDtestDlg::DriveDetect(2095)] m_szOddDrive = E:\
+[2017/12/21 15:36:01][CCDtestDlg::DriveDetect(2121)] (E)(TRUE)
+[2017/12/21 15:36:01][CCDtestDlg::OnTimer(586)] DriveDetect() successed.
+[2017/12/21 15:36:01][CCDtestDlg::OnTimer(602)] Check TDConf value.
+[2017/12/21 15:36:01][CCDtestDlg::CheckTDConf(3931)] (S)
+[2017/12/21 15:36:01][CCDtestDlg::CheckTDConf(3963)] TDConf file reading error.
+[2017/12/21 15:36:01][CCDtestDlg::CheckTDConf(4002)] (E)(FALSE)
+[2017/12/21 15:36:01][CCDtestDlg::OnTimer(607)] Skip profile check.
+[2017/12/21 15:36:01][CCDtestDlg::OnTimer(653)] m_iTestUnitReadyCount = 0
+[2017/12/21 15:36:02][CCDtestDlg::OnTimer(527)] ***** << m_CurrentStep == Step_Drive_Ready >> *********************************************************************
+[2017/12/21 15:36:02][CCDtestDlg::OnTimer(665)] m_iTestUnitReadyCount = 0
+[2017/12/21 15:36:02][CCDtestDlg::OnTimer(682)] TEST_UNIT_READY() successed. : CdbStatus = 0x00000000
+[2017/12/21 15:36:02][CCDtestDlg::GetVolumeLabel(2960)] (S)
+[2017/12/21 15:36:02][CCDtestDlg::GetVolumeLabel(2976)] m_TDODDHandle = 0xffffffff
+[2017/12/21 15:36:03][CCDtestDlg::GetVolumeLabel(3030)] szVolumeLabel = DTEQ_FDOSUEFI
+[2017/12/21 15:36:03][CCDtestDlg::GetVolumeLabel(3042)] m_TDODDHandle = 0x009ec9b8
+[2017/12/21 15:36:03][CCDtestDlg::GetVolumeLabel(3045)] (E)
+[2017/12/21 15:36:03][CCDtestDlg::OnTimer(710)] m_strVolumeLabel = DTEQ_FDOSUEFI
+[2017/12/21 15:36:03][CCDtestDlg::OnTimer(715)] Success, Drive ready.
+[2017/12/21 15:36:03][CCDtestDlg::OnTimer(719)] m_CurrentStep = Step_Tray_Lock
+[2017/12/21 15:36:03][CCDtestDlg::OnTimer(527)] ***** << m_CurrentStep == Step_Tray_Lock >> *********************************************************************
+[2017/12/21 15:36:04][CCDtestDlg::TrayLock(2214)] (S)
+[2017/12/21 15:36:04][CCDtestDlg::TrayLock(2223)] TDODDLockDrive() : result = 0x00000000
+[2017/12/21 15:36:04][CCDtestDlg::TrayLock(2238)] (E)(TRUE)
+[2017/12/21 15:36:04][CCDtestDlg::OnTimer(777)] m_bTrayLock = TRUE
+[2017/12/21 15:36:04][CCDtestDlg::OnTimer(783)] m_CurrentStep = Step_Volume_Lock
+[2017/12/21 15:36:04][CCDtestDlg::OnTimer(527)] ***** << m_CurrentStep == Step_Volume_Lock >> *********************************************************************
+[2017/12/21 15:36:04][CCDtestDlg::OnTimer(801)] m_iVolumeLock_CurrentRetryCount = 0
+[2017/12/21 15:36:04][CCDtestDlg::OnTimer(837)] TDODDLockVolume() successed.
+[2017/12/21 15:36:04][CCDtestDlg::OnTimer(840)] m_bVolumeLock = TRUE
+[2017/12/21 15:36:05][CCDtestDlg::OnTimer(843)] m_CurrentStep = Step_Media_Information
+[2017/12/21 15:36:05][CCDtestDlg::OnTimer(527)] ***** << m_CurrentStep == Step_Media_Information >> *********************************************************************
+[2017/12/21 15:36:05][CCDtestDlg::MediaCheck(2248)] (S)
+[2017/12/21 15:36:05][CCDtestDlg::MediaCheck(2261)] GET_CONFIGURATION() : result = 0x00000000 : CdbError = 0x46000000
+[2017/12/21 15:36:05][CCDtestDlg::MediaCheck(2283)] usCurrentProfile = 0x0011
+[2017/12/21 15:36:05][CCDtestDlg::GetProfileStringA(3235)] (S)
+[2017/12/21 15:36:05][CCDtestDlg::GetProfileStringA(3237)] usProfile = 17
+[2017/12/21 15:36:05][CCDtestDlg::GetProfileStringA(3298)] (E)(DVD-R Sequential recording)
+[2017/12/21 15:36:05][CCDtestDlg::MediaCheck(2284)] Kind of media : DVD-R Sequential recording
+[2017/12/21 15:36:05][CCDtestDlg::GetProfileStringA(3235)] (S)
+[2017/12/21 15:36:05][CCDtestDlg::GetProfileStringA(3237)] usProfile = 17
+[2017/12/21 15:36:05][CCDtestDlg::GetProfileStringA(3298)] (E)(DVD-R Sequential recording)
+[2017/12/21 15:36:05][CCDtestDlg::MediaCheck(2323)] Success, MediaType Check : This is a DVD media. : DVD-R Sequential recording(0x0011).
+[2017/12/21 15:36:06][CCDtestDlg::MediaCheck(2367)] Failure, VolumeLabel Check : This is not a Test media. : VolumeLabel = DTEQ_FDOSUEFI
+[2017/12/21 15:36:06][CCDtestDlg::MediaCheck(2392)] (E)(FALSE)
+[2017/12/21 15:36:06][CCDtestDlg::OnTimer(880)] Failure, Media Check.
+[2017/12/21 15:36:07][CCDtestDlg::OnTimer(527)] ***** << m_CurrentStep == Step_NG >> *********************************************************************
+[2017/12/21 15:36:07][CCDtestDlg::Epilogue(2131)] (S)
+[2017/12/21 15:36:07][CCDtestDlg::Epilogue(2141)] TDODDUnlockVolume() : result = 0x00000000
+[2017/12/21 15:36:07][CCDtestDlg::Epilogue(2144)] m_bVolumeLock = FALSE
+[2017/12/21 15:36:07][CCDtestDlg::Epilogue(2151)] TDODDUnlockDrive() : result = 0x00000000
+[2017/12/21 15:36:07][CCDtestDlg::Epilogue(2154)] m_bTrayLock = FALSE
+[2017/12/21 15:36:07][CCDtestDlg::Epilogue(2159)] m_iDeviceOpen_MaxRetryCount     = 5
+[2017/12/21 15:36:07][CCDtestDlg::Epilogue(2160)] m_iDeviceOpen_CurrentRetryCount = 0
+[2017/12/21 15:36:13][CCDtestDlg::Epilogue(2171)] TRAY_OPEN() : result = 0x00000000
+[2017/12/21 15:36:13][CCDtestDlg::Epilogue(2178)] m_iDeviceOpen_CurrentRetryCount = 1
+[2017/12/21 15:36:13][CCDtestDlg::Epilogue(2180)] Sleep(3000)
